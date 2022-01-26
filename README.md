@@ -1,4 +1,7 @@
-# Documentación
+# Cómo inicializar el proyecto
 
-1- Cómo inicializar el proyecto
+Primero
+
+# Cómo ejecutar el script
+
  
