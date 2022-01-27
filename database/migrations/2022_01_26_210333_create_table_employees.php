@@ -29,7 +29,7 @@ class CreateTableEmployees extends Migration
             $table->decimal('salariobase', $precision = 12, $scale = 2);
             $table->decimal('descuentos', $precision = 12, $scale = 2);
             $table->decimal('salarioneto', $precision = 12, $scale = 2);
-            $table->timestamps()->default(DB::raw('CURRENT_TIMESTAMP'));
+            $table->timestamp('created_at')->useCurrent();
 
         });
     }

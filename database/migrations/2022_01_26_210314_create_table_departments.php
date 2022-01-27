@@ -16,7 +16,8 @@ class CreateTableDepartments extends Migration
         Schema::create('departments', function (Blueprint $table) {
             $table->id();
             $table->char('deptoName', 100);
-            $table->timestamps()->default(DB::raw('CURRENT_TIMESTAMP'));
+            $table->timestamp('created_at')->useCurrent();
+
         });
     }
 
