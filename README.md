@@ -1,3 +1,7 @@
+# Documentacion
+
+Como inicializar la aplicación web hecha en Laravel y MySQL que consiste en un CRUD API basado en 3 tablas de una base de datos llamada "DBDATA" y 3 tablas de llamadas "departments, employees, studies". El proyecto se realizó en Laravel para el código y MySQL para la base de datos. Las tablas de la base de datos y las relaciones de la mismas, fueron creadas utilizando las migraciones de Laravel.
+
 # Importar base de datos
 
 Desde el phpMyAdmin utilizar el archivo llamado "DB.sql" para la importacion de la base de datos directamente a phpMyAdmin.
