@@ -21,7 +21,9 @@ class CreateTableStudies extends Migration
             ->references('id')
             ->on('employees')
             ->onDelete('cascade');
+            $table->timestamp('updated_at')->useCurrent();
             $table->timestamp('created_at')->useCurrent();
+            
         });
     }
 
