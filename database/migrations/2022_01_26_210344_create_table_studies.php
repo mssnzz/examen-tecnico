@@ -21,7 +21,7 @@ class CreateTableStudies extends Migration
             ->references('id')
             ->on('employees')
             ->onDelete('cascade');
-            $table->timestamps();
+            $table->timestamps()->default(DB::raw('CURRENT_TIMESTAMP'));
         });
     }
 
